@@ -4,7 +4,7 @@ import type {AlephApi, PolkadotApi} from '@dedot/chaintypes';
 
 async function main() {
     // Initialize providers & clients
-    const provider = new WsProvider('wss://acala-rpc-1.aca-api.network');
+    const provider = new WsProvider({ endpoint: 'wss://efinity-rpc.dwellir.com', maxRetryAttempts: 1 });
     const client = new LegacyClient({ provider, throwOnUnknownApi: false });
 
     client.on('connected', () => console.log('Connected'));
@@ -12,15 +12,11 @@ async function main() {
     client.on('ready', () => console.log('ready'));
     client.on('disconnected', () => console.log('disconnected'));
 
-    await client.connect()
-
-    console.log(await client.rpc.system_version());
-    console.log(!!client.tx.nominationPools.migrateDelegation);
-
-    // if ('migrateDelegation' in client.tx.nominationPools) {
-    // console.log(assert(client.tx.nominationPools.migrateDelegation))
-    // console.log("substrateApi.client.tx.nominationPools", !!client.tx.nominationPools.migrateDelegation)
-    // }
+    try {
+        await client.connect();
+    } catch {
+        console.log('err');
+    }
 
     console.log('done')
 

@@ -39,9 +39,6 @@
     "wss://moonbeam.dotters.network",
     "wss://moonbeam.public.curie.radiumblock.co/ws"
   ],
-  "pioneer": [
-    "wss://pioneer-rpc-3.bit.country/wss"
-  ],
   "aleph": [
     "wss://ws.azero.dev",
     "wss://aleph-zero-rpc.dwellir.com",
@@ -108,13 +105,6 @@
     "wss://rococo-rpc.polkadot.io",
     "light://substrate-connect/rococo"
   ],
-  "bitcountry": [
-    "wss://alphanet-rpc-gcp.bit.country"
-  ],
-  "equilibrium_parachain": [
-    "wss://node.pol.equilibrium.io",
-    "wss://equilibrium-rpc.dwellir.com"
-  ],
   "moonbase": [
     "wss://wss.api.moonbase.moonbeam.network",
     "wss://moonbase-alpha.public.blastapi.io",
@@ -128,12 +118,6 @@
     "wss://moonriver-rpc.n.dwellir.com",
     "wss://moonriver.api.onfinality.io/public-ws",
     "wss://moonriver.unitedbloc.com"
-  ],
-  "turingStaging": [
-    "wss://rpc.turing-staging.oak.tech"
-  ],
-  "turing": [
-    "wss://turing-rpc.dwellir.com"
   ],
   "bifrost": [
     "wss://bifrost-rpc.liebi.com/ws",
@@ -149,9 +133,6 @@
   "bifrost_testnet": [
     "wss://public-01.testnet.bifrostnetwork.com/wss",
     "wss://public-02.testnet.bifrostnetwork.com/wss"
-  ],
-  "calamari": [
-    "wss://calamari.systems"
   ],
   "amplitude": [
     "wss://rpc-amplitude.pendulumchain.tech",
@@ -202,32 +183,16 @@
   "sora_ksm": [
     "wss://ws.parachain-collator-2.c2.sora2.soramitsu.co.jp"
   ],
-  "odyssey": [
-    "wss://odyssey.aresprotocol.io"
-  ],
   "polkadex": [
     "wss://polkadex.public.curie.radiumblock.co/ws",
     "wss://polkadex.api.onfinality.io/public-ws",
     "wss://polkadex-mainnet-rpc.dwellir.com"
-  ],
-  "polkadexTest": [
-    "wss://blockchain.polkadex.trade"
-  ],
-  "rmrk": [
-    "wss://staging.node.rmrk.app"
-  ],
-  "dolphin": [
-
   ],
   "opal": [
     "wss://ws-opal.unique.network",
     "wss://eu-ws-opal.unique.network",
     "wss://us-ws-opal.unique.network",
     "wss://asia-ws-opal.unique.network"
-  ],
-  "efinity": [
-    "wss://rpc.efinity.io",
-    "wss://efinity -rpc.dwellir.com"
   ],
   "composableFinance": [
     "wss://rpc.composable.finance",
@@ -262,11 +227,6 @@
     "wss://karura-rpc-3.aca-api.network/ws",
     "wss://karura.api.onfinality.io/public-ws",
     "wss://karura-rpc.dwellir.com"
-  ],
-  "khala": [
-    "wss://khala-api.phala.network/ws",
-    "wss://khala.api.onfinality.io/public-ws",
-    "wss://khala-rpc.dwellir.com"
   ],
   "kilt": [
     "wss://spiritnet.kilt.io/",
@@ -311,12 +271,6 @@
     "wss://unique.ibp.network",
     "wss://unique.dotters.network"
   ],
-  "genshiro": [
-    "wss://node.genshiro.io"
-  ],
-  "genshiro_testnet": [
-
-  ],
   "subsocial_x": [
     "wss://para.subsocial.network",
     "wss://subsocial-rpc.dwellir.com"
@@ -332,9 +286,6 @@
     "wss://rpc-shadow.crustnetwork.app",
     "wss://rpc-shadow.crustnetwork.cc",
     "wss://rpc-shadow.crustnetwork.xyz"
-  ],
-  "uniqueNft": [
-    "wss://testnet2.unique.network"
   ],
   "robonomics": [
     "wss://kusama.rpc.robonomics.network/",
@@ -361,9 +312,6 @@
   "acala_testnet": [
     "wss://mandala-tc9-rpc.aca-staging.network"
   ],
-  "mangatax": [
-    "wss://collator-01-ws-rococo.mangata.online"
-  ],
   "mangatax_para": [
     "wss://kusama-rpc.mangata.online",
     "wss://kusama-archive.mangata.online"
@@ -374,37 +322,9 @@
     "wss://sys.ibp.network/encointer-kusama",
     "wss://encointer-kusama.dotters.network"
   ],
-  "litmus": [
-    "wss://rpc.litmus-parachain.litentry.io"
-  ],
   "litentry": [
     "wss://rpc.heima-parachain.heima.network",
     "wss://litentry-rpc.dwellir.com"
-  ],
-  "tinkernet": [
-    "wss://tinkernet-rpc.dwellir.com",
-    "light://substrate-connect/kusama/tinkernet"
-  ],
-  "imbue_network": [
-    "wss://kusama.imbuenetwork.com"
-  ],
-  "subspace_test": [
-
-  ],
-  "subspace_gemini_2a": [
-    "wss://eu-0.gemini-2a.subspace.network/ws"
-  ],
-  "subspace_gemini_3c": [
-
-  ],
-  "subspace_gemini_3d": [
-
-  ],
-  "subspace_gemini_3e": [
-
-  ],
-  "subspace_gemini_3f": [
-    "wss://rpc-0.gemini-3f.subspace.network/ws"
   ],
   "origintrail": [
     "wss://parachain-rpc.origin-trail.network",
@@ -413,42 +333,20 @@
   "subspace_gemini_3g": [
     "wss://rpc-0.gemini-3g.subspace.network/ws"
   ],
-  "dorafactory": [
-
-  ],
-  "bajun": [
-    "wss://rpc-parachain.bajun.network",
-    "wss://bajun.api.onfinality.io/public-ws"
-  ],
   "dancebox": [
     "wss://dancebox.tanssi-api.network"
-  ],
-  "listen": [
-
   ],
   "kabocha": [
     "wss://kabocha.jelliedowl.net"
   ],
-  "gmdie": [
-
-  ],
   "ternoa": [
     "wss://mainnet.ternoa.network"
-  ],
-  "tanganika": [
-
   ],
   "pendulum": [
     "wss://rpc-pendulum.prd.pendulumchain.tech"
   ],
-  "gear_testnet": [
-    "wss://rpc-node.gear-tech.io"
-  ],
   "ternoa_alphanet": [
     "wss://alphanet.ternoa.com"
-  ],
-  "calamari_test": [
-    "wss://c1.calamari.seabird.systems"
   ],
   "kilt_peregrine": [
     "wss://peregrine.kilt.io/parachain-public-ws/"
@@ -456,17 +354,11 @@
   "xx_network": [
     "wss://rpc.xx.network"
   ],
-  "watr_network": [
-    "wss://rpc.dev.watr.org"
-  ],
   "fusotao": [
     "wss://gateway.mainnet.octopus.network/fusotao/0efwa9v0crdx4dg3uj8jdmc5y7dj4ir2"
   ],
   "discovol": [
     "wss://gateway.mainnet.octopus.network/discovol/afpft46l1egfhrv8at5pfyrld03zseo1"
-  ],
-  "discovol_testnet": [
-    "wss://gateway.testnet.octopus.network/discovol/o4urcey87y4n1qimhfrad92gzs315z9h"
   ],
   "atocha": [
     "wss://gateway.mainnet.octopus.network/atocha/jungxomf4hdcfocwcalgoiz64g9avjim"
@@ -493,53 +385,20 @@
     "wss://ajuna.ibp.network",
     "wss://ajuna.dotters.network"
   ],
-  "bitgreen": [
-    "wss://mainnet.bitgreen.org"
-  ],
   "frequency": [
     "wss://0.rpc.frequency.xyz",
     "wss://1.rpc.frequency.xyz",
     "wss://frequency-rpc.dwellir.com",
     "wss://frequency-polkadot.api.onfinality.io/public-ws"
   ],
-  "hashedNetwork": [
-    "wss://c1.hashed.network"
-  ],
-  "kapex": [
-    "wss://kapex-rpc.dwellir.com"
-  ],
-  "kylinNetwork": [
-    "wss://polkadot.kylin-node.co.uk"
-  ],
   "ipci": [
     "wss://ipci.rpc.robonomics.network"
-  ],
-  "kico": [
-
-  ],
-  "luhnNetwork": [
-
-  ],
-  "pichiu": [
-
-  ],
-  "riodefi": [
-
   ],
   "automata": [
     "wss://automata.api.onfinality.io/public-ws"
   ],
-  "creditcoin": [
-    "wss://mainnet.creditcoin.network/ws"
-  ],
   "crownSterling": [
     "wss://blockchain.crownsterling.io"
-  ],
-  "dockPosMainnet": [
-    "wss://mainnet-node.dock.io"
-  ],
-  "kusari": [
-
   ],
   "logion": [
     "wss://para-rpc01.logion.network"
@@ -553,20 +412,11 @@
   "polymesh": [
     "wss://mainnet-rpc.polymesh.network"
   ],
-  "riochain": [
-
-  ],
-  "sherpax": [
-
-  ],
   "sora_substrate": [
     "wss://mof2.sora.org",
     "wss://ws.mof.sora.org",
     "wss://mof3.sora.org",
     "wss://sora.api.onfinality.io/public-ws"
-  ],
-  "swapdex": [
-    "wss://ws.swapdex.network"
   ],
   "3dpass": [
     "wss://rpc.3dpscan.io"
@@ -584,9 +434,6 @@
   "vara_network": [
     "wss://rpc.vara-network.io",
     "wss://rpc.vara.network"
-  ],
-  "kate": [
-    "wss://kate.avail.tools/ws"
   ],
   "bridgeHubPolkadot": [
     "wss://polkadot-bridge-hub-rpc.polkadot.io",
@@ -632,73 +479,11 @@
     "wss://entrypoint-finney.opentensor.ai:443",
     "wss://lite.sub.latent.to:443"
   ],
-  "unorthodox": [
-
-  ],
-  "coinversation": [
-
-  ],
-  "layerx_network": [
-
-  ],
-  "moonsama": [
-
-  ],
-  "oak_network": [
-
-  ],
-  "omnibtc": [
-
-  ],
-  "quantum_portal": [
-
-  ],
-  "virto_network": [
-
-  ],
   "energy_web_x": [
     "wss://public-rpc.mainnet.energywebx.com/"
   ],
-  "invarch": [
-    "wss://invarch-rpc.dwellir.com",
-    "wss://invarch.ibp.network",
-    "wss://invarch.dotters.network"
-  ],
-  "zero": [
-
-  ],
-  "kpron_network": [
-
-  ],
-  "mars": [
-
-  ],
-  "snow": [
-
-  ],
-  "aband": [
-
-  ],
-  "alpha_network": [
-
-  ],
-  "loom_network": [
-
-  ],
-  "subgame_gamma": [
-
-  ],
-  "trustbase": [
-
-  ],
   "manta_network": [
     "wss://ws.manta.systems"
-  ],
-  "t3rn": [
-
-  ],
-  "geminis_network": [
-
   ],
   "polimec": [
     "wss://rpc.polimec.org",
@@ -707,17 +492,8 @@
     "wss://polimec.ibp.network",
     "wss://polimec.dotters.network"
   ],
-  "subdao": [
-
-  ],
-  "subgame_network": [
-
-  ],
   "xcavate": [
     "wss://rpc1-polkadot.xcavate.io"
-  ],
-  "watr_mainnet": [
-    "wss://watr-rpc.watr-api.network"
   ],
   "enjin_relaychain": [
     "wss://rpc.relay.blockchain.enjin.io/"
@@ -729,9 +505,6 @@
   "vara_testnet": [
     "wss://testnet.vara-network.io",
     "wss://testnet.vara.network"
-  ],
-  "goldberg_testnet": [
-    "wss://goldberg-testnet-rpc.avail.tools/ws"
   ],
   "energy_web_x_testnet": [
     "wss://ewx-staging-parachain-argon-wmfbanx0xb.energyweb.org/ws"
@@ -749,9 +522,6 @@
   ],
   "subspace_gemini_3h": [
     "wss://rpc-0.gemini-3h.subspace.network/ws"
-  ],
-  "continuum_network": [
-    "wss://continuum-rpc-1.metaverse.network/wss"
   ],
   "rococo_assethub": [
     "wss://rococo-asset-hub-rpc.polkadot.io"
@@ -878,9 +648,6 @@
     "wss://rpc-1.mainnet.subspace.network/ws",
     "wss://rpc.mainnet.subspace.foundation/ws",
     "wss://rpc-0.mainnet.autonomys.xyz/ws"
-  ],
-  "g6_testnet": [
-    "wss://testnet.g6.network/node"
   ],
   "jamton": [
     "wss://rpc.jamton.network"

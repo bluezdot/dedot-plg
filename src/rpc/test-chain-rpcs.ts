@@ -1,7 +1,5 @@
 import {LegacyClient, SmoldotProvider, WsProvider} from "dedot";
 
-type DedotProvider = WsProvider | SmoldotProvider;
-
 const CHAIN_RPCS = require('./chain-rpcs.json') as Record<string, string[]>;
 
 async function main() {
@@ -23,14 +21,14 @@ async function main() {
         console.log('chainSlug', chainSlug);
 
         if (legacyChains.includes(chainSlug)) {
-            continue;
+            continue; // skip known legacy chains
         }
 
         for (const rpc of rpcs) {
-            let provider: DedotProvider;
+            let provider: WsProvider;
 
             if (rpc.startsWith('light://')) {
-                continue;
+                continue; // skip light rpc
             } else {
                 provider = new WsProvider({ endpoint: rpc, maxRetryAttempts: 1});
             }
@@ -40,7 +38,7 @@ async function main() {
             try {
                 await client.connect();
             } catch {
-                continue;
+                continue; // skip disconnect chains
             }
 
             const rpcMethods = await client.rpc.rpc_methods();
@@ -49,11 +47,11 @@ async function main() {
             const hasTransactionV1 = rpcMethods.methods.some(item => item.startsWith('transaction_v1_'));
 
             if (hasChainHeadV1 && hasChainSpecV1 && hasTransactionV1) {
-                continue;
+                continue; // skip new rpc
             }
 
             legacyChains.push(chainSlug);
-            break;
+            break; // only need to check one old rpc
         }
 
         console.log('legacyChains', legacyChains);
