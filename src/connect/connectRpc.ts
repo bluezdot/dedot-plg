@@ -4,7 +4,7 @@ import type {AlephApi, PolkadotApi} from '@dedot/chaintypes';
 
 async function main() {
     // Initialize providers & clients
-    const provider = new WsProvider({ endpoint: 'wss://efinity-rpc.dwellir.com', maxRetryAttempts: 1 });
+    const provider = new WsProvider({ endpoint: 'wss://polkadot-coretime-rpc.polkadot.io', maxRetryAttempts: 0 });
     const client = new LegacyClient({ provider, throwOnUnknownApi: false });
 
     client.on('connected', () => console.log('Connected'));
@@ -17,6 +17,15 @@ async function main() {
     } catch {
         console.log('err');
     }
+
+    const rpcMethods = await client.rpc.rpc_methods();
+    const hasChainHeadV1 = rpcMethods.methods.some(item => item.startsWith('chainHead_v1_'));
+    const hasChainSpecV1 = rpcMethods.methods.some(item => item.startsWith('chainSpec_v1_'));
+    const hasTransactionV1 = rpcMethods.methods.some(item => item.startsWith('transaction_v1_'));
+
+    console.log('hasChainHeadV1', hasChainHeadV1)
+    console.log('hasChainSpecV1', hasChainSpecV1)
+    console.log('hasTransactionV1', hasTransactionV1)
 
     console.log('done')
 

@@ -121,8 +121,7 @@
   ],
   "bifrost": [
     "wss://bifrost-rpc.liebi.com/ws",
-    "wss://us.bifrost-rpc.liebi.com/ws",
-    "wss://bifrost.public.curie.radiumblock.co/ws"
+    "wss://us.bifrost-rpc.liebi.com/ws"
   ],
   "bifrost_dot": [
     "wss://hk.p.bifrost-rpc.liebi.com/ws",
@@ -278,9 +277,6 @@
   "zeitgeist": [
     "wss://zeitgeist.api.onfinality.io/public-ws"
   ],
-  "sakura": [
-    "wss://rpc.sakura.clover.finance"
-  ],
   "shadow": [
     "wss://rpc-shadow.crust.network/",
     "wss://rpc-shadow.crustnetwork.app",
@@ -397,17 +393,11 @@
   "automata": [
     "wss://automata.api.onfinality.io/public-ws"
   ],
-  "crownSterling": [
-    "wss://blockchain.crownsterling.io"
-  ],
   "logion": [
     "wss://para-rpc01.logion.network"
   ],
   "neatcoin": [
     "wss://rpc.neatcoin.org/ws"
-  ],
-  "nftmart": [
-    "wss://mainnet.nftmart.io/rpc/ws"
   ],
   "polymesh": [
     "wss://mainnet-rpc.polymesh.network"
@@ -466,14 +456,6 @@
   ],
   "jur_network": [
     "wss://mainnet.jur.io/"
-  ],
-  "crust_mainnet": [
-    "wss://crust.api.onfinality.io/public-ws",
-    "wss://rpc.crust.network",
-    "wss://rpc.crustnetwork.app",
-    "wss://rpc.crustnetwork.cc",
-    "wss://rpc.crustnetwork.xyz",
-    "wss://crust-mainnet-rpc.dwellir.com"
   ],
   "bittensor": [
     "wss://entrypoint-finney.opentensor.ai:443",
@@ -680,12 +662,6 @@
   ],
   "torus": [
     "wss://api.torus.network"
-  ],
-  "gen6_public": [
-    "wss://gen6.app:443/node"
-  ],
-  "melodie_testnet": [
-    "wss://melodie-rpc.allfeat.io"
   ],
   "polkadot_coretime": [
     "wss://sys.ibp.network/coretime-polkadot",
