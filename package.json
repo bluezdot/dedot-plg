@@ -16,6 +16,7 @@
   "dependencies": {
     "@substrate/connect-known-chains": "^1.10.2",
     "dedot": "^0.13.0",
+    "rxjs": "^7.8.2",
     "smoldot": "^2.0.36"
   }
 }
