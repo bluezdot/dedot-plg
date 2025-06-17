@@ -4,7 +4,7 @@ import type {AlephApi, PolkadotApi} from '@dedot/chaintypes';
 
 async function main() {
     // Initialize providers & clients
-    const provider = new WsProvider({ endpoint: 'wss://polkadot-coretime-rpc.polkadot.io', maxRetryAttempts: 0 });
+    const provider = new WsProvider({ endpoint: 'wss://entrypoint-finney.opentensor.ai:443', maxRetryAttempts: 0 });
     const client = new LegacyClient({ provider, throwOnUnknownApi: false });
 
     client.on('connected', () => console.log('Connected'));
