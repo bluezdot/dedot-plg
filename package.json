@@ -14,7 +14,9 @@
     "typescript": "^5.8.3"
   },
   "dependencies": {
+    "@emurgo/cardano-message-signing-nodejs": "^1.1.0",
     "@substrate/connect-known-chains": "^1.10.2",
+    "@subwallet/keyring": "^0.1.12",
     "dedot": "^0.13.0",
     "rxjs": "^7.8.2",
     "smoldot": "^2.0.36"
