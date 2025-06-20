@@ -2,7 +2,10 @@ import { DedotClient, WsProvider } from 'dedot';
 import type {FrameSystemAccountInfo} from "@dedot/api/chaintypes/substrate/types";
 
 const rpc = "wss://polkadot-rpc.dwellir.com";
-const address = "1P8B9aHLLUcPrgVo1EfmvJ2yNm9Uac9RkSiNQyVxVp6yons";
+const addresses = [
+    '1P8B9aHLLUcPrgVo1EfmvJ2yNm9Uac9RkSiNQyVxVp6yons',
+    '1BzDB5n2rfSJwvuCW9deKY9XnUyys8Gy44SoX8tRNDCFBhx'
+]
 
 async function connectWsRpc (rpc: string) {
     const provider = new WsProvider({ endpoint: rpc, maxRetryAttempts: 0 });
@@ -24,7 +27,7 @@ async function connectWsRpc (rpc: string) {
 
 async function main() {
     const client = await connectWsRpc(rpc);
-    const balance: FrameSystemAccountInfo = await client.query.system.account(address);
+    const balance = await client.query.system.account.multi(addresses);
 
     console.log('balance', balance);
 }
